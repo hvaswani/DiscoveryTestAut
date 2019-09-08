@@ -1,0 +1,1 @@
+This is discovery test automation project.
