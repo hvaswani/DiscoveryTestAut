@@ -61,7 +61,7 @@ public class PopularShowPage extends TestBase {
 		Iterator<WebElement> productIterator = products.iterator();
 		Iterator<WebElement> durationIterator = durations.iterator();
 		try {
-			FileWriter writer = new FileWriter("D:\\MyFile.txt", true);
+			FileWriter writer = new FileWriter("src/test/resources/MyFile.txt", true);
 			while (productIterator.hasNext() && durationIterator.hasNext()) {
 				WebElement prodElement = (WebElement) productIterator.next();
 				WebElement durationElement = (WebElement) durationIterator.next();
